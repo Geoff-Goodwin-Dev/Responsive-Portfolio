@@ -1,146 +1,201 @@
-/** {*/
-  /*box-sizing: border-box;*/
-/*}*/
+* {
+  box-sizing: border-box;
+}
 
-/*body {*/
-  /*height: 100%;*/
-  /*font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;*/
-  /*font-size: 16px;*/
-  /*color: #777777;*/
-  /*background-image: url('../images/pattern1.jpg');*/
-/*}*/
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 16px;
+  color: #777777;
+  background-image: url('../images/pattern1.jpg');
+}
 
-/*#headerPlusBody {*/
-  /*min-height: calc(100vh - 70px);*/
-/*}*/
+/*=================================Header Section Items=====================================*/
 
-/*#topRow {*/
-  /*background-color: #ffffff;*/
-  /*line-height: 85px;*/
-/*}*/
+#headerPlusBody {
+  min-height: calc(100vh - 45px);
+}
 
-/*header {*/
-  /*display: flex;*/
-  /*width: 960px;*/
-  /*margin-bottom: 0;*/
-/*}*/
+#topRow {
+  background-color: #ffffff;
 
-/*h1 {*/
-  /*font-family: Verdana, Geneva, sans-serif;*/
-  /*display: block;*/
-  /*font-size: 28px;*/
-  /*font-weight: bold;*/
-/*}*/
+}
 
-/*h2 {*/
-  /*font-family: Verdana, Geneva, sans-serif;*/
-  /*color: #4aaaa5;*/
-  /*display: block;*/
-  /*font-size: 18px;*/
-  /*font-weight: bold;*/
-/*}*/
+#header {
+  display: flex;
+  overflow: hidden;
+  max-width: 960px;
+  min-width: 270px;
+  margin: 0 auto;
+}
 
-/*h3 {*/
-  /*font-family: Verdana, Geneva, sans-serif;*/
-  /*color: #ffffff;*/
-  /*display: block;*/
-  /*font-size: 16px;*/
-/*}*/
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+}
 
-/*#headerContainer {*/
-  /*margin: auto;*/
-  /*border-bottom: 3px solid #cccccc;*/
-  /*box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2);*/
-/*}*/
+#headerContainer {
+  border-bottom: 3px solid #cccccc;
+  box-shadow: 0 10px 14px rgba(0, 0, 0, 0.2);
+}
 
-/*#logoName {*/
-  /*float: left;*/
-  /*background-color: #4aaaa5;*/
-  /*color: #ffffff;*/
-  /*padding: 0 20px;*/
-  /*width: 30%;*/
-  /*text-align: center;*/
-/*}*/
+#logoName {
+  float: left;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 20px;
+  width: 280px;
+  min-width: 280px;
+  text-align: center;
+}
 
-/*#navLinkFarm {*/
-  /*background-color: #ffffff;*/
-  /*float: left;*/
-  /*text-align: right;*/
-  /*width: 70%;*/
-/*}*/
+#navLinkFarm {
+  float: right;
+  text-align: right;
+  width: 680px;
+  margin: auto 0;
+  padding: 12px 0;
+}
 
-/*.headerLink {*/
-  /*color: #aaaaaa;*/
-  /*text-decoration: none;*/
-  /*font-size: 18px;*/
-  /*margin: 0 15px;*/
-  /*-webkit-transition: .3s;*/
-  /*transition: .3s;*/
-/*}*/
+#navLinkTable {
+  width: 300px;
+  text-align: center;
+  float: right;
+}
 
-/*.headerLink:hover {*/
-  /*text-shadow: 0 0 5px rgba(74, 170, 165, 0.8);*/
-  /*color: #000000;*/
-  /*-webkit-transition: .5s;*/
-  /*transition: .5s;*/
-/*}*/
+.table33 {
+  width: 33%;
+}
 
-/*#headerLinkRight {*/
-  /*margin-right: 0;*/
-/*}*/
+#centerLink {
+  border-left: 1px solid #aaaaaa;
+  border-right: 1px solid #aaaaaa;
+  width: 34%;
+}
 
-/*#contentContainer {*/
-  /*clear: both;*/
-  /*padding-top: 30px;*/
-  /*margin-bottom: 20px;*/
-/*}*/
+.headerLink {
+  color: #aaaaaa;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
 
-/*.content {*/
-  /*margin: 0;*/
-  /*width: 960px;*/
-/*}*/
+.headerLink:hover {
+  text-shadow: 0 0 5px rgba(74, 170, 165, 0.8);
+  color: #000000;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
 
-/*.mainBodyContainer {*/
-  /*float: left;*/
-  /*width: 650px;*/
-  /*padding: 0 25px 25px 25px;*/
-  /*text-align: left;*/
-  /*line-height: 22px;*/
-  /*margin-bottom: 20px;*/
-/*}*/
+/*=================================Body Section Items=====================================*/
 
-/*.mainBodyCaption {*/
-  /*color: #4aaaa5;*/
-  /*font-size: 24px;*/
-  /*padding: 20px 0;*/
-/*}*/
+h2 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #4aaaa5;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
 
-/*#profilePic {*/
-  /*float: left;*/
-  /*width: 45%;*/
-  /*margin-right: 20px;*/
-  /*margin-bottom: 20px;*/
-  /*position: relative;*/
-  /*top: 6px;*/
-  /*border: 1px solid #666666;*/
-  /*border-radius: 3px;*/
-/*}*/
+#contentContainer {
+  clear: both;
+  padding-top: 30px;
+  margin-bottom: 20px;
+}
 
-/*.contentSection {*/
-  /*border: 1px solid #cccccc;*/
-  /*border-radius: 3px;*/
-  /*box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4), inset 3px 15px 20px rgba(255, 255, 255, 1);*/
-  /*background-color: rgba(256, 256, 256, 0.8);*/
-/*}*/
+.content {
+  margin: 0;
+  max-width: 960px;
+  min-width: 270px;
+}
 
-/*hr {*/
-  /*height: 12px;*/
-  /*border: 0;*/
-  /*box-shadow: inset 0 8px 8px -8px rgba(0, 0, 0, 0.5);*/
-  /*margin: 0 0 10px 0;*/
-/*}*/
+.mainBodyContainer {
+  float: left;
+  max-width: 650px;
+  width: 64%;
+  padding: 0 25px 25px 25px;
+  text-align: left;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
 
-/*!* -------PORTFOLIO SECTION------------ *!*/
+.mainBodyCaption {
+  color: #4aaaa5;
+  font-size: 24px;
+  padding: 20px 0;
+}
+
+.contentSection {
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4), inset 3px 15px 20px rgba(255, 255, 255, 1);
+  background-color: rgba(256, 256, 256, 0.8);
+}
+
+hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 8px 8px -8px rgba(0, 0, 0, 0.5);
+  margin: 0 0 10px 0;
+}
+
+/*=================================About Me Section Items=====================================*/
+
+#profilePic {
+  float: left;
+  width: 45%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  top: 6px;
+  border: 1px solid #666666;
+  border-radius: 3px;
+}
+
+/*=================================Connect with Me Section Items=====================================*/
+
+#connectWithMeContainer {
+  float: right;
+  max-width: 270px;
+  width: 32%;
+  padding: 0 25px 20px 25px;
+  margin-bottom: 15px;
+}
+
+#connectWithMeCaption {
+  padding: 20px 0;
+}
+
+.logoLink {
+  border-radius: 6px;
+  background-color: #eeeeee;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.logoLink:hover {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#logoFarm {
+  width: 100%;
+}
+
+
+/*=================================Portfolio Section Items=====================================*/
+
+h3 {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #ffffff;
+  display: block;
+  font-size: 16px;
+}
 
 /*.leftPortfolioItem {*/
   /*float: left;*/
@@ -172,51 +227,27 @@
   /*box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);*/
 /*}*/
 
-/*#hangman {*/
-  /*background-image: url("../images/folio1_hangman.png");*/
-/*}*/
+#hangman {
+  background-image: url("../images/folio1_hangman.png");
+}
 
-/*#rpg {*/
-  /*background-image: url("../images/folio2_rpg.png");*/
-/*}*/
+#rpg {
+  background-image: url("../images/folio2_rpg.png");
+}
 
-/*#trivia {*/
-  /*background-image: url("../images/folio3_trivia.png");*/
-/*}*/
+#trivia {
+  background-image: url("../images/folio3_trivia.png");
+}
 
-/*#rutgers {*/
-  /*background-image: url("../images/folio4_rutgers.png");*/
-/*}*/
+#rutgers {
+  background-image: url("../images/folio4_rutgers.png");
+}
 
-/*#rockPaperScissors {*/
-  /*background-image: url("../images/folio5_rockpaperscissors.png");*/
-/*}*/
+#rockPaperScissors {
+  background-image: url("../images/folio5_rockpaperscissors.png");
+}
 
-/*#connectWithMeContainer {*/
-  /*float: right;*/
-  /*width: 270px;*/
-  /*padding: 0 25px 20px 25px;*/
-/*}*/
-
-/*#connectWithMeCaption {*/
-  /*padding: 20px 0;*/
-/*}*/
-
-/*.logoLink {*/
-  /*border-radius: 6px;*/
-  /*background-color: #eeeeee;*/
-  /*box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);*/
-  /*-webkit-transition: .3s;*/
-  /*transition: .3s;*/
-/*}*/
-
-/*.logoLink:hover {*/
-  /*box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);*/
-  /*-webkit-transition: .5s;*/
-  /*transition: .5s;*/
-/*}*/
-
-/*!*  ------------Contact Webform Section------------ *!*/
+/*=================================Contact Me Section Items=====================================*/
 
 /*form {*/
   /*margin: 0 auto;*/
@@ -307,16 +338,77 @@
   /*border-radius: 5px;*/
 /*}*/
 
+/*=================================Footer Section Items=====================================*/
 
-/*footer {*/
-  /*clear: both;*/
-  /*border-top: 8px solid #4aaaa5;*/
-  /*background-color: #666666;*/
-  /*color: #999999;*/
-  /*font-size: 12px;*/
-  /*padding: 30px;*/
-  /*height: 50px;*/
-  /*width: 100%;*/
-  /*text-align: center;*/
-  /*margin-top: -20px;*/
-/*}*/
+footer {
+  clear: both;
+  border-top: 8px solid #4aaaa5;
+  background-color: #666666;
+  color: #999999;
+  font-size: 12px;
+  padding: 30px;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*=================================Media Queries=====================================*/
+
+@media only screen and (max-width: 980px) {
+
+  #header {
+    max-width: 960px;
+  }
+  #contentContainer {
+    margin: 0 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  #header {
+    width: 100%;
+  }
+  .mainBodyContainer {
+    width: 100%;
+    float: none;
+    max-width: none;
+  }
+  #connectWithMeContainer {
+    width: 100%;
+    float: none;
+    max-width: none;
+  }
+  #logoFarm {
+    width: 40%;
+    min-width: 218px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+
+  #header {
+    display: block;
+  }
+  #logoName {
+    width: 100%;
+  }
+  #navLinkFarm {
+    width: 100%;
+  }
+  #navLinkTable {
+    width: 100%;
+  }
+  .mainBodyCaption{
+    text-align: center;
+  }
+  #profilePic {
+    float: none;
+    margin: 0 auto 15px auto;
+    position: unset;
+    width: 100%;
+
+
+  }
+}
