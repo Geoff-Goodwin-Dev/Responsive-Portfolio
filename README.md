@@ -78,8 +78,8 @@ Not Applicable: This is a static website for educational purposes and therefore 
 
 * version 1.0 - Initialization and creation of Readme, file structure and placeholder HTML files as well as upload of assets including CSS and images
 * version 1.1 - creation of responsive version of Index file and template for additional pages
-* version 1.2 (current version) - creation of responsive version of Portfolio page file
-
+* version 1.2 - creation of responsive version of Portfolio page file
+* version 1.3 (current version) - creation of responsive version of Contact page file, portfolio under construction file, and addition of CSS animation on Portfolio items
 
 ## Authors
 

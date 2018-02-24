@@ -212,6 +212,10 @@ h3 {
   line-height: 0;
 }
 
+.folioImageContainer:hover {
+  animation: glow 1s linear 0s infinite alternate;
+}
+
 .folioImage {
   width: 100%;
 }
@@ -229,94 +233,94 @@ h3 {
 
 /*=================================Contact Me Section Items=====================================*/
 
-/*form {*/
-  /*margin: 0 auto;*/
-/*}*/
+form {
+  margin: 0 auto;
+}
 
-/*form > div {*/
-  /*position: relative;*/
-  /*margin-top: 16px;*/
-/*}*/
+form > div {
+  position: relative;
+  margin-top: 16px;
+}
 
-/*form > div > input[type="text"],*/
-/*form > div > input[type="email"],*/
-/*form > div > textarea {*/
-  /*width: 100%;*/
-  /*padding: 12px;*/
-  /*border: 1px solid #cccccc;*/
-  /*border-radius: 3px;*/
-  /*margin: 4px 0;*/
-  /*resize: vertical;*/
-  /*box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);*/
-/*}*/
+form > div > input[type="text"],
+form > div > input[type="email"],
+form > div > textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  margin: 4px 0;
+  resize: vertical;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-/*form > div > input[type="text"]:focus,*/
-/*form > div > input[type="email"]:focus {*/
-  /*background: white;*/
-/*}*/
+form > div > input[type="text"]:focus,
+form > div > input[type="email"]:focus {
+  background: white;
+}
 
-/*form > div > input[type="text"]:valid,*/
-/*form > div > input[type="email"]:valid  {*/
-  /*background: #ffffff url("../images/check.png") no-repeat 98% 50%;*/
-  /*background-size: 20px;*/
-  /*border: 1px solid #2db34a;*/
-/*}*/
+form > div > input[type="text"]:valid,
+form > div > input[type="email"]:valid  {
+  background: #ffffff url("../images/check.png") no-repeat 98% 50%;
+  background-size: 20px;
+  border: 1px solid #2db34a;
+}
 
-/*form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown),*/
-/*form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown) {*/
-  /*background: #ffe6e6;*/
-  /*border: 1px solid #FF0000;*/
-/*}*/
+form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown),
+form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown) {
+  background: #ffe6e6;
+  border: 1px solid #FF0000;
+}
 
-/*form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown) ~ .requirements,*/
-/*form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown) ~ .requirements {*/
-  /*max-height: 200px;*/
-  /*padding-bottom: 10px;*/
-/*}*/
+form > div > input[type="text"]:invalid:not(:focus):not(:placeholder-shown) ~ .requirements,
+form > div > input[type="email"]:invalid:not(:focus):not(:placeholder-shown) ~ .requirements {
+  max-height: 200px;
+  padding-bottom: 10px;
+}
 
-/*form > div .requirements {*/
-  /*max-height: 0;*/
-  /*-webkit-transition: .8s;*/
-  /*transition: .8s;*/
-  /*overflow: hidden;*/
-  /*color: red;*/
-  /*font-size: 14px;*/
-/*}*/
+form > div .requirements {
+  max-height: 0;
+  -webkit-transition: .8s;
+  transition: .8s;
+  overflow: hidden;
+  color: red;
+  font-size: 14px;
+}
 
-/*label {*/
-  /*font-weight: bold;*/
-/*}*/
+label {
+  font-weight: bold;
+}
 
-/*#messageContent {*/
-  /*height: 200px;*/
-/*}*/
+#messageContent {
+  height: 200px;
+}
 
-/*input[type=submit],*/
-/*input[type=reset] {*/
-  /*background-color: #4aaaa5;*/
-  /*color: #ffffff;*/
-  /*padding: 12px 20px;*/
-  /*border: none;*/
-  /*border-radius: 3px;*/
-  /*cursor: pointer;*/
-  /*box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);*/
-  /*font-size: 16px;*/
-  /*margin-right: 20px;*/
-  /*-webkit-transition: .3s;*/
-  /*transition: .3s;*/
-/*}*/
+input[type=submit],
+input[type=reset] {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+  margin-right: 20px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
 
-/*input[type=submit]:hover,*/
-/*input[type=reset]:hover{*/
-  /*background-color: #2D918D;*/
-  /*box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);*/
-  /*-webkit-transition: .5s;*/
-  /*transition: .5s;*/
-/*}*/
+input[type=submit]:hover,
+input[type=reset]:hover{
+  background-color: #2D918D;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
 
-/*.container {*/
-  /*border-radius: 5px;*/
-/*}*/
+.container {
+  border-radius: 5px;
+}
 
 /*=================================Footer Section Items=====================================*/
 
@@ -392,5 +396,16 @@ footer {
   .folioItem {
     width: 100%;
     padding: 10px 0;
+  }
+}
+
+/*=================================Animation Key Frames=====================================*/
+
+@keyframes glow {
+  from {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), inset 3px 3px 18px rgba(255, 255, 255, 0.3);
+  }
+  to {
+    box-shadow: 0 0 30px rgba(255, 235, 0, 0.7);
   }
 }
