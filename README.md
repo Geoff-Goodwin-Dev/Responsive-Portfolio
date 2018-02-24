@@ -77,7 +77,9 @@ Not Applicable: This is a static website for educational purposes and therefore 
 ## Versioning
 
 * version 1.0 - Initialization and creation of Readme, file structure and placeholder HTML files as well as upload of assets including CSS and images
-* version 1.1 (current version) - creation of responsive version of Index file and template for additional pages
+* version 1.1 - creation of responsive version of Index file and template for additional pages
+* version 1.2 (current version) - creation of responsive version of Portfolio page file
+
 
 ## Authors
 

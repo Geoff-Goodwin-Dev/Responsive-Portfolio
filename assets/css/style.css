@@ -129,6 +129,7 @@ h2 {
 }
 
 .contentSection {
+  overflow: hidden;
   border: 1px solid #cccccc;
   border-radius: 3px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4), inset 3px 15px 20px rgba(255, 255, 255, 1);
@@ -195,56 +196,35 @@ h3 {
   color: #ffffff;
   display: block;
   font-size: 16px;
+  padding: 20px 0;
 }
 
-/*.leftPortfolioItem {*/
-  /*float: left;*/
-/*}*/
-
-/*.rightPortfolioItem {*/
-  /*float: right;*/
-/*}*/
-
-/*.folioItem {*/
-  /*background-color: #242bb3;*/
-  /*height: 205px;*/
-  /*width: 275px;*/
-  /*margin-bottom: 60px;*/
-  /*position: relative;*/
-  /*box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), inset 3px 3px 18px rgba(255, 255, 255, 0.3);*/
-  /*border: 1px solid #666666;*/
-  /*background-size: 100%;*/
-/*}*/
-
-/*.folioCaption {*/
-  /*text-align: center;*/
-  /*color: #ffffff;*/
-  /*background-color: rgba(74, 170, 165, 0.8);*/
-  /*line-height: 60px;*/
-  /*position: absolute;*/
-  /*bottom: 10px;*/
-  /*width: 100%;*/
-  /*box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);*/
-/*}*/
-
-#hangman {
-  background-image: url("../images/folio1_hangman.png");
+.folioItem {
+  width: 50%;
+  padding: 10px;
+  float: left;
 }
 
-#rpg {
-  background-image: url("../images/folio2_rpg.png");
+.folioImageContainer {
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), inset 3px 3px 18px rgba(255, 255, 255, 0.3);
+  border: 1px solid #666666;
+  line-height: 0;
 }
 
-#trivia {
-  background-image: url("../images/folio3_trivia.png");
+.folioImage {
+  width: 100%;
 }
 
-#rutgers {
-  background-image: url("../images/folio4_rutgers.png");
-}
-
-#rockPaperScissors {
-  background-image: url("../images/folio5_rockpaperscissors.png");
+.folioCaption {
+  text-align: center;
+  color: #ffffff;
+  background-color: rgba(74, 170, 165, 0.8);
+  position: absolute;
+  right: 0;
+  bottom: 20px;
+  left: 0;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 /*=================================Contact Me Section Items=====================================*/
@@ -408,7 +388,9 @@ footer {
     margin: 0 auto 15px auto;
     position: unset;
     width: 100%;
-
-
+  }
+  .folioItem {
+    width: 100%;
+    padding: 10px 0;
   }
 }
