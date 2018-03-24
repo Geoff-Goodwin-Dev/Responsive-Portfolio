@@ -15,7 +15,7 @@ These instructions will get you a copy of the project up and running on your loc
 ```
 * This is a static web page exercise.  As such, you're welcome to download a copy and run it locally for review purposes.  
 
-* Otherwise, you can view the output at: <link tbd>
+* Otherwise, you can view the output at: https://geoff-goodwin-dev.github.io/Responsive-Portfolio/
 ```
 
 ### Prerequisites
@@ -80,7 +80,9 @@ Not Applicable: This is a static website for educational purposes and therefore 
 * version 1.1 - creation of responsive version of Index file and template for additional pages
 * version 1.2 - creation of responsive version of Portfolio page file
 * version 1.3 - creation of responsive version of Contact page file, portfolio under construction file, and addition of CSS animation on Portfolio items
-* version 1.4 (current version) - added link to Hangman Game in Portfolio page
+* version 1.4 - added link to Hangman Game in Portfolio page
+* version 1.5 - added link to GifTastic App in Portfolio page
+
 
 ## Authors
 
