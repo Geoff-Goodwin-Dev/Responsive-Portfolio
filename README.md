@@ -82,7 +82,7 @@ Not Applicable: This is a static website for educational purposes and therefore 
 * version 1.3 - creation of responsive version of Contact page file, portfolio under construction file, and addition of CSS animation on Portfolio items
 * version 1.4 - added link to Hangman Game in Portfolio page
 * version 1.5 - added link to GifTastic App in Portfolio page
-
+* version 1.6 - added link to Rock Paper Scissors Multi-Player in Portfolio page
 
 ## Authors
 
